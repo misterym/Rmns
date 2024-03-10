@@ -557,3 +557,4 @@ dl.codebox dt span {float:right;}
 #content-container div#main {
     margin-bottom: 0;
 }
+#page-footer p.copyright strong:empty{display:none;}
