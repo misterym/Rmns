@@ -411,3 +411,146 @@ span.corners-bottom, span.corners-top {display: none;}
     font-size: 0;
     display: flex;
 }
+/************ CITAR EDITAR CODE SPOILER ******/
+blockquote {
+    border: var(--border);
+    color: var(--color1);
+    padding: 20px 0;
+    margin: 10px;
+  background-color:#141414;
+  border-radius:0;
+  padding-right: 20px;
+}
+
+blockquote blockquote {
+    background-color: #141414;
+    font-size: 1em;
+    margin: 0.5em 1px 0 15px;}
+
+input:focus-visible {
+    outline: 1px solid var(--acento2);
+}
+#tabs a span {
+    padding: 2px!important;
+}
+#cp-main {
+    border: var(--border);
+    border-color: var(--acento1);
+    margin: 10px;
+}
+dt label{font-weight:400;}
+fieldset.submit-buttons {
+    padding: 10px;
+    background: var(--acento2);
+    margin: 0;
+}
+.panel > .inner > fieldset > dl > dt, fieldset dl:hover dt label {
+    color: var(--color1)!important;
+    font-family: var(--fuente2);
+    font-size: .8rem;
+}
+blockquote cite {
+    display: block;
+    font-size: .9em;
+    font-style: normal;
+    font-weight: 700;
+  color:var(--gracento);
+}
+dl.codebox dt {
+    border-bottom: var(--border);
+    color: var(--gracento);
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    margin-bottom: 3px;
+    padding: 8px 20px;
+    background: var(--fondo1);
+}
+dl.codebox {
+    border: var(--border);
+    font-size: 12px;
+    padding: 0px;
+  margin:10px;
+  background: var(--fondo2);
+}
+dl.codebox code {
+    color: var(--color1);
+    display: block;
+    font-size: 12px;
+    padding: 5px 20px;
+}
+.spoiler_content.hidden {
+    display: block;
+    padding: 10px 20px;
+}
+.codebox.hidecode dt:before {
+    content: "\f21b";
+    font-family: 'Font Awesome 5 Free';
+    font-size: 50px;
+    opacity: .2;
+}
+.codebox.hidecode dt {
+    height: 20px;
+    border-bottom: var(--border)!important;
+    overflow: hidden;
+}
+.codebox.hidecode dd {
+    padding: 10px;
+    color: var(--color1);
+}
+dl.codebox dt span {float:right;}
+/*************** Pagination ***********************/
+.paginas-fs > span > a:last-child {
+    margin-left: 9px;
+}
+.paginas-fs > a {
+    font-size: 11px;
+}
+.paginas-fs {
+    font-size: 0;
+}
+.paginas-fs > span > strong,.barra-actions > div:last-child span > strong {color: var(--acento1);margin-top:1px;}
+.boton-fs > a {
+    border: var(--border);
+    border-radius: 5px;
+    font-size: 9px;
+    font-weight: 900;
+    margin-right: 10px;
+    padding: 5px 20px;
+    text-transform: uppercase;
+}
+.paginas-fs > span,.barra-actions > div:last-child span {
+    font-size: 0;
+    margin-left: 10px;
+}
+.paginas-fs > span > strong, .paginas-fs > span > a:not(:last-child), .barra-actions > div:last-child span a:not(.pag-img), .pagination span strong, .pagination span a:link:not(.pag-img) {
+    display: inline-flex;
+    width: 15px;
+    height: 18px;
+    border: var(--border);
+    align-items: center;
+    justify-content: center;
+    background: var(--fondo2);
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: 700;
+}
+.boton-fs > a:empty {
+    display: none;
+}
+.btlist-nomest .pagination span a,.barra-actions > div:last-child span a:not(.pag-img) {
+    border: var(--border)!important;
+    color: var(--color)!important;
+    font-size: 10px!important;
+    padding: 0px 2px!important;
+    border-radius: 4px;
+    background: var(--fondo2);
+}
+.pagination span a.pag-img {
+    position: relative;
+    top: 4px;
+}
+.btlist-nomest .pagination span a:hover,.barra-actions > div:last-child > span a:hover {
+    border-color: var(--acento1)!important;
+}
+.autor-tem strong {font-weight: 900;!important}
