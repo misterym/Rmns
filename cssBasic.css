@@ -308,3 +308,106 @@ select {
     color: var(--color);
     opacity: .4;
 }
+/****************************************************/
+a:hover{text-decoration:none;}
+input[type="checkbox" i] {
+    accent-color: var(--acento1);
+    background-color: field;
+    border: var(--border);
+}
+.chatbox-title, .chatbox-title a.chat-title {
+    color: #!important;
+    font-family: var(--fuente1);
+}
+a, a:visited, a:active, a:focus{color:var(--acento1);}
+::selection{background:var(--acento1); color:#fafafa;}
+#fa_toolbar{display:none;}
+div#main {overflow: visible!important;}
+::-webkit-scrollbar {
+    width: 8px !important;
+    height: 5px !important;
+    background: var(--fondo1);
+    border-left: var(--border);
+}
+.jqmWindow h1 {
+    font-family: var(--fuente2);
+    font-weight: 900;
+    color: var(--acento1);
+    border-bottom: var(--border);
+    padding: 10px;
+}
+.jqmWindow, #find_username {
+    background: var(--fondo1);
+    border: var(--border);
+    color: var(--color);
+    border-radius: 10px;
+    padding: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient( 40deg, var(--gradient1),var(--gradient2));
+}
+#chatbox_channels .member-title, #chatbox_members .member-title {
+    background-image: none;
+    color: #fff;
+    font-size: 12px;
+    padding: 0.5em 0.25em;
+text-align: center;}
+#chatbox{color:#888; font-family:Arial;font-size: 13px;}
+.chatbox-members{background: #141414;;height:240px;height:100%;}
+body.chatbox{background:#161616;font-family:Arial;}
+#chatbox_header{background: #101010;border-bottom: 1px solid #222;height: 29px;}
+#chatbox_footer{height: 25px; background: #111; border-top: 1px solid #222; color: #aaa; font-size: 12px;}
+a.chat-title{font-family: monospace; color: #444; font-weight: 900; font-size: 19px; padding-left: 10px;}
+#nb-users-connected{background-color: transparent; padding: 0px 6px 6px 10px; border-radius: 0; margin: 0 5px; color: #444;}
+ul#chatbox_main_options a{color: #aaa; font-family: monospace; text-transform: uppercase; font-size: 11px;}
+div#chatbox_footer label[for="message"]{text-transform: uppercase; font-weight: 900; font-size: 11px; padding: 0px 5px; font-family: monospace;}
+div#chatbox_footer input[type="submit"]{border: 1px solid #222; background: #222; color: #aaa!important; padding: 3px 26px 19px; text-transform: uppercase; font-weight: 900; font-family: monospace;}
+#chatbox_footer label{background: #333; border: 1px solid #444; color: #aaa!important; padding: 2px; box-shadow: none;}
+.format-message + label, #chatbox_footer #divcolor, #chatbox_footer #divsmilies, #chatbox_footer #help-button{background: #333!important; border: 1px solid #444!important; color: #000!important; padding: 2px; box-shadow: none!important;}
+input {
+    background: var(--fondo1);
+    border: var(--border)!important;
+    border-radius: 4px;
+    color: var(--color1);
+}
+span.corners-bottom, span.corners-top {display: none;}
+.conteneur_minwidth_IE:after {
+    content: "";
+    height: 20px;
+    width: 100%;
+    display: block;
+}
+
+.postbody .content > a {
+    border-bottom:2px solid var(--accent);
+  font-weight:600;
+}
+/*******************************************/
+.n-links {
+    flex-wrap: wrap;
+    padding: 0 20px;
+    width: 440px;
+    height: 72px;
+}
+.n-url > a:after {
+    content: "\f054";
+    padding-left: 10px;
+    font-family: 'Font Awesome 5 Free';
+}
+.n-url > a {
+    font-size: 11px;
+    width: max-content;
+    margin: 0px 10px;
+}
+.n-url {
+    background: var(--fondo1);
+    border: var(--border);
+    border-bottom: 0;
+    border-radius: 10px 10px 0 0;
+    bottom: -27px;
+    font-family: var(--fuente2);
+    padding: 4px 20px;
+    position: absolute;
+    font-size: 0;
+    display: flex;
+}
