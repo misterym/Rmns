@@ -554,3 +554,6 @@ dl.codebox dt span {float:right;}
     border-color: var(--acento1)!important;
 }
 .autor-tem strong {font-weight: 900;!important}
+#content-container div#main {
+    margin-bottom: 0;
+}
