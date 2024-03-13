@@ -558,3 +558,90 @@ dl.codebox dt span {float:right;}
     margin-bottom: 0;
 }
 #page-footer p.copyright strong:empty{display:none;}
+#tabs {
+    line-height: normal;
+    margin: 0px;
+    border: var(--border);
+    padding: 15px;
+    border-bottom: 0;
+    background: var(--fondot);
+    margin-bottom: 0px;
+}
+div#tabs > ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+#tabs li {
+    flex-grow: 1;
+    border: var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px;
+    background: var(--fondo1);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .5px;
+    font-size: .65rem;
+}
+li.activetab a {
+    color: var(--color1);
+    font-weight: 400;
+    letter-spacing: 2px;
+    opacity: .4;
+}
+.panel.row3 {
+    border: var(--border);
+    background: var(--fondo1);
+    margin-top: 0px;
+    padding: 0;
+}
+h1.page-title {
+    margin: 0!important;
+    font-family: var(--fuente1);
+    font-weight: 500;
+    color: #fafafa;
+    padding: 10px!important;
+    background: var(--acento2);
+    border-bottom: 1px solid var(--acento1)!important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: .85rem;
+}
+.panel > .inner > fieldset > dl > dd > input {
+    margin-bottom: 15px;
+    margin-left: 10px;
+    padding: 4px 10px;
+}
+h1.page-tit {
+    background: var(--fondo1);
+    border-bottom: var(--border);
+    font-family: var(--fuente1);
+    font-size: 24px;
+    margin: -22px 11px 50px -15px;
+    padding: 40px 30px;
+    width: 1070px;
+}
+.panel > .inner > fieldset > dl {
+    border: var(--border);
+    margin: 10px 0;
+    background: var(--fondo2);
+    padding: 15px;
+    font-size: .8rem;
+}
+fieldset dl {
+    padding: 4px 0;
+}
+#cp-main .panel:not(:last-child) {
+    border-bottom: 1px solid var(--acento1);
+    margin-bottom: 0;
+}
+
+#cp-main .panel {
+    padding: 20px;
+    font-size: .74rem;
+    color: var(--color);
+}
