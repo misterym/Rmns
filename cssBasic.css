@@ -645,3 +645,12 @@ fieldset dl {
     font-size: .74rem;
     color: var(--color);
 }
+#tabs {
+    line-height: normal;
+    margin: 0px;
+    border: var(--border);
+    padding: 15px;
+    border-bottom: 0;
+    background: var(--fondot);
+    margin-bottom: 0px;
+}
