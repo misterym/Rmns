@@ -10,10 +10,10 @@ a.button1, a.button2, button.button2, input.button1, input.button2 {
     background-repeat: repeat-x;
     color: #fafafa;
     overflow: visible;
-    padding: 6px 25px!important;
+    padding: 5px 20px!important;
     width: auto!important;
     background: var(--acento1);
-    font-size: .8rem;
+    font-size: .65rem;
     text-transform: uppercase;
     font-weight: 500;
     font-family: var(--fuente2);
