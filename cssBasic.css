@@ -432,6 +432,7 @@ input:focus-visible {
 }
 #tabs a span {
     padding: 2px!important;
+    font-weight:700px;
 }
 #cp-main {
     border: var(--border);
@@ -653,4 +654,16 @@ fieldset dl {
     border-bottom: 0;
     background: var(--fondot);
     margin-bottom: 0px;
+}
+#tabs .activetab a span {
+    color: #fafafa !important;
+}
+#tabs .activetab {
+    background: var(--acento2);
+    opacity: 1;
+}
+.inputbox {
+    border: var(--border);
+    background: var(--fondo1);
+    border-radius: var(--border-radius);
 }
