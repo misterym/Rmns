@@ -420,14 +420,14 @@ blockquote {
     color: var(--color1);
     padding: 20px 0;
     margin: 10px;
-  background-color:#141414;
-  border-radius:0;
-  padding-right: 20px;
+    background-color: var(--fondo2);
+    border-radius: 0;
+    padding-right: 20px;
 }
 
 blockquote blockquote {
-    background-color: #141414;
-    font-size: 1em;
+    background-color: var(--fondo2);
+    font-size: 1rem;
     margin: 0.5em 1px 0 15px;}
 
 input:focus-visible {
@@ -454,21 +454,35 @@ fieldset.submit-buttons {
     font-size: .8rem;
 }
 blockquote cite {
-    display: block;
     font-size: .9em;
     font-style: normal;
-    font-weight: 700;
-  color:var(--gracento);
+    background: var(--fondo1);
+    margin: -20px -20px 20px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color:var(--acento1);
+    letter-spacing: .5px;
+    border-bottom: var(--border);
 }
 dl.codebox dt {
     border-bottom: var(--border);
-    color: var(--gracento);
+    color: var(--acento1);
     display: block;
     font-size: 11px;
-    font-weight: 700;
+    font-weight: 800;
     margin-bottom: 3px;
     padding: 8px 20px;
     background: var(--fondo1);
+}
+span.selectCode {
+    border: 1px solid var(--acento1);
+    padding: 0 10px;
+    cursor: pointer;
 }
 dl.codebox {
     border: var(--border);
@@ -529,15 +543,24 @@ dl.codebox dt span {float:right;}
 }
 .paginas-fs > span > strong, .paginas-fs > span > a:not(:last-child), .barra-actions > div:last-child span a:not(.pag-img), .pagination span strong, .pagination span a:link:not(.pag-img) {
     display: inline-flex;
-    width: 15px;
-    height: 18px;
+    width: 25px;
+    height: 25px;
     border: var(--border);
     align-items: center;
     justify-content: center;
-    background: var(--fondo2);
+    background: var(--fondo1);
     border-radius: 3px;
-    font-size: 10px;
-    font-weight: 700;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--acento1);
+}
+.pagination > span > strong {
+    color: var(--color-icons);
+    font-weight: 800;
+}
+p.pagination {
+    margin-bottom: 0;
+    font-size: 0;
 }
 .boton-fs > a:empty {
     display: none;
