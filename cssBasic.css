@@ -708,7 +708,7 @@ fieldset dl {
     border-radius: var(--border-radius);
 }
 p.pagination > a[href="javascript:Pagination();"], .pag-img, a.pag-img{
-    display: none;
+    display: none!important;
 }
 .remains-prier-post > i {
     height: 100%;
