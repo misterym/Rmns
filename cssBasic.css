@@ -541,6 +541,20 @@ dl.codebox dt span {float:right;}
     font-size: 0;
     margin-left: 10px;
 }
+.pagination span a, .pagination span a:link, .pagination span a:visited, .pagination span a:active {
+    display: inline-flex;
+    width: 25px;
+    height: 25px;
+    border: var(--border);
+    align-items: center;
+    justify-content: center;
+    background: var(--fondo1);
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--acento1);
+}
+
 .paginas-fs > span > strong, .paginas-fs > span > a:not(:last-child), .barra-actions > div:last-child span a:not(.pag-img), .pagination span strong, .pagination span a:link:not(.pag-img) {
     display: inline-flex;
     width: 25px;
@@ -693,6 +707,6 @@ fieldset dl {
     background: var(--fondo1);
     border-radius: var(--border-radius);
 }
-p.pagination > a[href="javascript:Pagination();"], .pag-img {
+p.pagination > a[href="javascript:Pagination();"], .pag-img, a.pag-img{
     display: none;
 }
