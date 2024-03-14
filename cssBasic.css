@@ -710,3 +710,28 @@ fieldset dl {
 p.pagination > a[href="javascript:Pagination();"], .pag-img, a.pag-img{
     display: none;
 }
+.remains-prier-post > i {
+    height: 100%;
+    width: 60px;
+    background: var(--fondo1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .8rem;
+    border-right: var(--border);
+    color: var(--color1);
+}
+.remains-prier-post {
+    border: var(--border);
+    background: var(--fondo2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 0;
+    height: 30px;
+    text-transform: uppercase;
+    color: var(--acento1);
+    font-weight: 700;
+    font-size: .65rem;
+    letter-spacing: .5px;
+}
