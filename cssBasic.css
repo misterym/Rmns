@@ -670,3 +670,6 @@ fieldset dl {
     background: var(--fondo1);
     border-radius: var(--border-radius);
 }
+p.pagination > a[href="javascript:Pagination();"], .pag-img {
+    display: none;
+}
