@@ -2,6 +2,9 @@
 a:hover {
     text-decoration: none!important;
 }
+a.remains-cambia i {
+    font-size: 1rem;
+}
 div#main-content > div[style="overflow:visible"],.remains-footer:empty {display: none;}
 a.button1, a.button2, button.button2, input.button1, input.button2 {
     background-color: var(--fondo1);
