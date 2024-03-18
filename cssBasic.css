@@ -44,7 +44,6 @@ span.new-message:before {
 }
 .msjn{background:var(--acento1);}
 a#fa_notifications {
-    font-size: 0;
     cursor: pointer;
   position:relative;
 }
@@ -153,10 +152,6 @@ div#notification-fa {
     display: flex;
     align-items: center;
     gap: 10px;
-}
-a#fa_notifications:after {
-    content: "\f483";
-    font-family: bootstrap-icons!important;
 }
 span#notif_unread {
     font-size: 9px;
