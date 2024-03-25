@@ -267,10 +267,7 @@ select {
     padding: 2px 10px;
     font-family: var(--fuente2);
 }
-#page-footer p.copyright strong {
-    margin: 0;
-    display: block;
-}
+#page-footer p.copyright strong {margin: 0;}
 
 .copyright strong {
     text-align: center;
@@ -283,10 +280,11 @@ select {
     font-size: .7rem;
     margin-block: 0;
     text-transform: uppercase;
-    padding: 15px;
+    padding: 10px;
     border: var(--border);
 }
 #page-footer .navbar {
+    margin-left:3px;
     margin-bottom: 50px;
     border: var(--border);
     font-size: .6rem;
