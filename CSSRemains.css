@@ -984,7 +984,7 @@ blockquote {
     color: var(--color1);
     padding: 20px 0;
     margin: 10px;
-  background-color:#141414;
+  background-color:var(--fondot);
   border-radius:0;
   padding-right: 20px;
 }
@@ -1017,11 +1017,10 @@ fieldset.submit-buttons {
     font-size: .8rem;
 }
 blockquote cite {
-    display: block;
+    display: flex;
     font-size: .9em;
     font-style: normal;
     font-weight: 700;
-  color:var(--gracento);
 }
 dl.codebox dt {
     border-bottom: var(--border);
