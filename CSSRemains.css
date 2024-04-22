@@ -1347,3 +1347,15 @@ ul.topiclist.forums.f-forums.cajagrid{background:var(--fondo1);}
     flex-direction: column;
     gap: 10px;
 }
+/* notis */
+span#notif_unread {
+    font-size: 0;
+    width: 8px;
+    height: 8px;
+    background: var(--acento1);
+    position: absolute;
+    padding: 0;
+    right: -10px;
+    top: -10px;
+    z-index: 2;
+}
