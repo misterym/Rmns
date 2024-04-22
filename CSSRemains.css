@@ -990,7 +990,7 @@ blockquote {
 }
 
 blockquote blockquote {
-    background-color: #141414;
+    background-color: var(--fondot);
     font-size: 1em;
     margin: 0.5em 1px 0 15px;}
 
