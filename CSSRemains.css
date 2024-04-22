@@ -1362,3 +1362,13 @@ span#notif_unread {
 .night .remainspost-info > div > div {
     line-height: 12px;
 }
+span.new-message:before {
+    content: "";
+    position: absolute;
+    background: var(--acento1);
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    top: 0;
+    right: 0;
+}
