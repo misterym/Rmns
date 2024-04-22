@@ -1359,10 +1359,15 @@ span#notif_unread {
     background: var(--acento1);
     position: absolute;
     padding: 0;
-    right: -10px;
-    top: -10px;
+    right: 0;
+    top: 0;
     z-index: 2;
 }
+a#fa_notifications {
+    cursor: pointer;
+    position: unset;
+}
+.b-notis{position:relative;}
 .night .remainspost-info > div > div {
     line-height: 12px;
 }
