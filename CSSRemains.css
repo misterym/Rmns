@@ -1359,3 +1359,6 @@ span#notif_unread {
     top: -10px;
     z-index: 2;
 }
+.night .remainspost-info > div > div {
+    line-height: 12px;
+}
