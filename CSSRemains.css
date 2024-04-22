@@ -1331,3 +1331,19 @@ ul.topiclist.forums.f-forums.dobles.cajagrid { grid-template-columns: repeat(2,5
 
 .f-forums {padding:10px;}
 ul.topiclist.forums.f-forums.cajagrid{background:var(--fondo1);}
+.f-soloTexto {
+    border: 15px solid var(--fondo2);
+    font-size: .82rem;
+    text-align: justify;
+    hyphens: auto;
+    line-height: 16px;
+    letter-spacing: .2px;
+    overflow: auto;
+    padding-right: 15px;
+    border-right: 0;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
