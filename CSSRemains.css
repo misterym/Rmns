@@ -1023,14 +1023,15 @@ blockquote cite {
     font-weight: 700;
 }
 dl.codebox dt {
-    border-bottom: var(--border);
-    color: var(--gracento);
-    display: block;
     font-size: 11px;
     font-weight: 700;
     margin-bottom: 3px;
     padding: 8px 20px;
     background: var(--fondo1);
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: flex-start;
 }
 dl.codebox {
     border: var(--border);
@@ -1057,14 +1058,18 @@ dl.codebox code {
 }
 .codebox.hidecode dt {
     height: 20px;
-    border-bottom: var(--border)!important;
+    border-bottom: var(--border) !important;
     overflow: hidden;
 }
 .codebox.hidecode dd {
     padding: 10px;
     color: var(--color1);
 }
-dl.codebox dt span {float:right;}
+dl.codebox dt span {
+    float: right;
+    position: absolute;
+    right: 10px;
+}
 /*************** Pagination ***********************/
 .paginas-fs > span > a:last-child {
     margin-left: 9px;
