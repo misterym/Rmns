@@ -1380,3 +1380,10 @@ span.new-message:before {
 span.new-message {
     font-size: 0;
 }
+#cp-main form[name="notif_opts"] fieldset.submit-buttons, #cp-main form[name="notif_list"] fieldset.submit-buttons {
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 !important;
+    background: var(--fondo1);
+}
