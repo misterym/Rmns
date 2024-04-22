@@ -1121,3 +1121,213 @@ dl.codebox dt span {float:right;}
     border-color: var(--acento1)!important;
 }
 .autor-tem strong {font-weight: 900;!important}
+ul#notif_list {
+    max-height: 450px;
+    overflow: auto;
+}
+/* cat y foos */
+.dobles .remainsfri-avatar > span {
+    border-width: 5px;
+    width: 90px;
+    height: 90px;
+}
+.dobles .remainsforo c {grid-template-rows: 60px auto;}
+.dobles .remainsforo c .remainsfri-datos {flex-direction: row;}
+.dobles .remainsforo c .remainsfri-datos {
+    padding: 0px 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.dobles .remainsforo c .remainsfri-datos > a {font-size: .7rem;}
+.dobles .remainsforo c .remainsfri-datos > span {line-height: 15px; }
+.f-soloLinks > a:hover,.f-textoLinks > div:last-child > a:hover {color: #ccc;}
+.f-soloLinks > a, .f-textoLinks > div:last-child > a {
+    background: var(--fondo1);
+    overflow: hidden;
+    color: var(--acento1);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .6rem;
+    letter-spacing: .5px;
+    padding: 2px 10px;
+    flex-grow: 1;
+  border-radius: var(--border-radius);
+    text-align: center;
+    border: var(--border);
+    transition: .6s ease-in-out;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.f-soloLinks > a:hover:after, .f-textoLinks > div:last-child > a:hover:after {left: 0;opacity: 1;}
+.f-soloLinks > a:after,.f-textoLinks > div:last-child > a:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: var(--acento1);
+    display: block;
+    position: absolute;
+    left: -100%;
+    z-index: -1;
+    transition: .5s ease-in-out;
+}
+.f-soloLinks {
+    overflow: auto;
+    height: 100%;
+    padding: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    box-sizing: border-box;
+}
+.f-textoLinks {
+    border: 15px solid var(--fondo2);
+    font-size: .82rem;
+    text-align: justify;
+    hyphens: auto;
+    line-height: 16px;
+    letter-spacing: .2px;
+    overflow: auto;
+    padding-right: 15px;
+    border-right: 0;
+    height: 100%; box-sizing:border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  .f-textoLinks> div:first-child {
+    flex-grow: 1;
+    overflow: auto;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+.f-textoLinks > div:last-child {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+  flex-wrap:wrap;
+}
+ul.topiclist.forums.f-forums.dobles.cajagrid { grid-template-columns: repeat(2,525px);}
+.dobles .remainsforo {
+    grid-template-rows: 120px auto 35px;
+    height: 330px;
+    overflow: hidden;
+}
+.dobles .remainsfr-informacion {grid-template-columns: 120px auto;}
+.dobles .remainsfr-info {grid-template-columns: repeat(2,auto); grid-template-rows:unset!important;}
+.dobles .remainsfr-info.cajagrid > div {flex-direction: row;}
+.remainsfr-descripcion {overflow: hidden;}
+.remainsfr-info {grid-template-rows: repeat(2,77.5px);}
+.remainsfr-info> div {
+    flex-direction: column;
+    gap: 15px;
+}
+.remainsfr-info> div i {
+    font-size: 1.1rem;
+    color: var(--color-icons);
+}
+.remainsfr-info> div > span {
+    text-transform: uppercase;
+    font-size: .65rem;
+    font-weight: 500;
+    line-height: 10px;
+    padding: 0 10px;
+    text-align: center;
+}
+.remainsfr-info> div color {
+    font-weight: 600;
+    font-size: .8rem;
+}
+.remainsfri-datos > a {
+    font-family: var(--fuente1);
+    font-weight: 700;
+    font-size: .85rem;
+    letter-spacing: .5px;
+    padding-bottom: 5px;
+}
+.remainsfri-datos i {
+    font-size: .6rem;
+    color: var(--color1);
+}
+.remainsfri-datos > span > *:last-child {
+    font-size: .71rem;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.remainsfri-datos > span > *:last-child strong {font-weight: 700;}
+.remainsfri-datos {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 40px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    line-height: 15px;
+}
+.remainsfri-datos > span {
+    flex-direction: column;
+    align-items: flex-start;
+  font-size:.7rem;
+}
+.simples .remainsforo {grid-template-columns: 505px 400px auto; grid-template-rows:160px;}
+.simples .remainsfr-informacion {grid-template-columns: 160px auto;}
+.rmbck {
+    border: var(--border);
+    background: var(--fondo2);
+}
+.simples .remainsfr-informacion > c {grid-template-rows: 60px auto;}
+.simples .remainsfr-descripcion {overflow: hidden;}
+.remainsfri-avatar > span {
+    width: 110px;
+    height: 110px;
+    outline: var(--border);
+    background: var(--fondo1);
+    border: 10px solid var(--fondo1);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.remainsfri-avatar img {
+    width: 90px;
+    height: auto;
+    border-radius: 0;
+    mix-blend-mode: luminosity;
+    opacity: .4;
+}
+.day .remainsfri-avatar img{opacity:.8;}
+.remainsfri-titulo {
+    font-family: var(--fuente1);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .85rem;
+    text-shadow: var(--text-shadow);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+</style>
+<style>
+.f-barra {
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.f-barra > span {
+    flex-direction: row-reverse;
+    gap: 5px;
+}
+.f-barra > span:after {
+    display: block;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: .65rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.f-barra > span:before {
+    content: "\F284";
+    font-family: bootstrap-icons!important;
+}
+
+.f-forums {padding:10px;}
+ul.topiclist.forums.f-forums.cajagrid{background:var(--fondo1);}
