@@ -1298,6 +1298,7 @@ ul.topiclist.forums.f-forums.dobles.cajagrid { grid-template-columns: repeat(2,5
     border-radius: 0;
     mix-blend-mode: luminosity;
     opacity: .4;
+ transform: translate3d(0, 0, 0);
 }
 .day .remainsfri-avatar img{opacity:.8;}
 .remainsfri-titulo {
