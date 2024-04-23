@@ -1407,3 +1407,55 @@ span.new-message {
     z-index:-1;
 }
 .efecto-h > a{font-family: 'roboto';font-weight: 700;font-size: .68rem;color: var(--decor2);}
+.sceditor-dropdown {
+    background: var(--fondo1) !important;
+    border: var(--border) !important;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.sceditor-dropdown input {
+    background: var(--fondo2);
+}
+
+.sceditor-dropdown .button {
+    background: var(--acento1) !important;
+    color: #ccc !important;
+    border-radius: 5px !important;
+    text-transform: uppercase;
+    font-size: .6rem;
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-family: 'Jost';
+}
+
+p.sceditor-mention-user {
+    background: var(--fondo2);
+    border: var(--border);
+    color: var(--color-text);
+    display: flex;
+    gap: 5px;
+    font-size: .68rem;
+    padding: 5px;
+    margin: 0 0 5px;
+}
+
+p.sceditor-mention-user:hover {
+    background: var(--acento2);
+    color: #ccc;
+    font-size: .7rem;
+}
+
+.sceditor-dropdown a:hover {
+    color: var(--acento1) !important;
+    background: var(--acento2);
+}
+
+div.sceditor-dropdown a, div.sceditor-dropdown a:link {
+    color: var(--color-text);
+}
+
+.sceditor-header-option.post-content {
+    background: var(--acento1) !important;
+    color: #ccc !important;
+}
