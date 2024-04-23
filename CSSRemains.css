@@ -1296,7 +1296,10 @@ ul.topiclist.forums.f-forums.dobles.cajagrid { grid-template-columns: repeat(2,5
     width: 90px;
     height: auto;
     border-radius: 0;
-    mix-blend-mode: luminosity;
+    filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -webkit-filter: grayscale(1);
     opacity: .4;
  transform: translate3d(0, 0, 0);
 }
