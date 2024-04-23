@@ -1459,3 +1459,70 @@ div.sceditor-dropdown a, div.sceditor-dropdown a:link {
     background: var(--acento1) !important;
     color: #ccc !important;
 }
+.tooltipster-base.tooltipster-default.tooltipster-fade.tooltipster-fade-show {
+    background: var(--fondo1);
+    border: var(--border);
+    border-radius: 0;
+}
+
+.tooltipster-content {
+    padding: 10px !important;
+    font-family: roboto !important;
+}
+.tooltip-content {
+    border: var(--border);
+    border-color: var(--acento2);
+}
+
+.tooltip-content img {
+    border-right: var(--border);
+    border-right-color: var(--acento2);
+    padding: 5px;
+    margin-right: 0;
+}
+
+span.tooltip-title {
+    width: 66%;
+    box-sizing: border-box;
+    border-bottom: var(--border);
+    border-color: var(--acento2);
+    padding: 5px;
+    font-family: DM Serif Display;
+    letter-spacing: .5px;
+    font-size: 1.1rem;
+    margin: 0;
+    margin-bottom: 10px;
+    color: var(--acento1);
+}
+
+span.tooltip-title strong {
+    font-weight: 300;
+}
+
+button.followBtn.follow.button1 {
+    background: var(--acento2);
+    margin: 10px auto;
+    color: #ccc;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-size: .6rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: roboto;
+}
+
+span.tooltip-subtitle, .tooltip-counts {
+    padding: 5px 10px 0!important;
+    display: block;
+    box-sizing: border-box;
+    color: var(--color-text);
+    font-size: .75rem;
+    font-weight: 800;
+    font-family: Lato !important;
+    text-transform: uppercase;
+}
+
+.tooltip-actions {
+    background: var(--acento2);
+    border-top: var(--border);
+}
