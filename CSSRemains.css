@@ -1531,3 +1531,6 @@ textarea {
     display: flex;
     gap: 5px;
 }
+.tooltipster-default {
+    background: var(--fondo1) !important;
+}
