@@ -1480,21 +1480,17 @@ div.sceditor-dropdown a, div.sceditor-dropdown a:link {
     padding: 5px;
     margin-right: 0;
 }
-
 span.tooltip-title {
-    width: 66%;
     box-sizing: border-box;
     border-bottom: var(--border);
     border-color: var(--acento2);
-    padding: 5px;
+    padding: 8px 5px;
     font-family: DM Serif Display;
     letter-spacing: .5px;
-    font-size: 1.1rem;
-    margin: 0;
-    margin-bottom: 10px;
+    font-size: .95rem !important;
+    margin: 5px 0 10px !important;
     color: var(--acento1);
 }
-
 span.tooltip-title strong {
     font-weight: 300;
 }
@@ -1512,20 +1508,26 @@ button.followBtn.follow.button1 {
 }
 
 span.tooltip-subtitle, .tooltip-counts {
-    padding: 5px 10px 0!important;
+    padding: 2px 10px 0 !important;
     display: block;
     box-sizing: border-box;
     color: var(--color);
-    font-size: .75rem;
-    font-weight: 800;
+    font-size: .6rem;
+    font-weight: 600;
     font-family: Lato !important;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
-
 .tooltip-actions {
-    background: var(--acento2);
+    background: var(--acento2) !important;
     border-top: var(--border);
+    display: flex;
+    gap: 10px;
 }
 textarea {
     color: var(--color);
+}
+.tooltip-actions > ul {
+    display: flex;
+    gap: 5px;
 }
