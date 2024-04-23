@@ -1526,3 +1526,6 @@ span.tooltip-subtitle, .tooltip-counts {
     background: var(--acento2);
     border-top: var(--border);
 }
+textarea {
+    color: var(--color);
+}
