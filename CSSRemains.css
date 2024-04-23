@@ -1534,3 +1534,6 @@ textarea {
 .tooltipster-default {
     background: var(--fondo1) !important;
 }
+.tooltipster-arrow-top.tooltipster-arrow > span {
+    border-top: 8px solid var(--acento2) !important;
+}
